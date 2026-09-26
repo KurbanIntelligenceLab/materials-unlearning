@@ -1,0 +1,16 @@
+include README.md LICENSE Makefile RELEASE_PLAN.md AGENTS.md
+recursive-include tools *.py
+recursive-include tests *.py
+recursive-include proofs *.lean *.py *.md *.toml *.json
+include proofs/lean-toolchain proofs/.gitignore
+include .gitignore .gitattributes
+prune proofs/.lake
+recursive-include results *.json *.csv
+prune development
+prune data
+global-exclude .DS_Store *.pyc
+prune manuscript
+prune manuscripts
+prune latest_manuscript
+prune submission
+prune final_manuscript

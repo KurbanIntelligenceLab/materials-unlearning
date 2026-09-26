@@ -1,0 +1,101 @@
+{
+  "analysis": "Algebraic analysis with fully recorded settings; conditional fixed-preprocessing reference.",
+  "corpus_size": 44344,
+  "training_size": 35476,
+  "test_size": 8868,
+  "features": 8192,
+  "lam": 1e-08,
+  "basis_seed": 0,
+  "split_seed": 0,
+  "gamma": 0.0715876304202021,
+  "train_mse": 0.016608604002240818,
+  "test_mse": 0.07038592031477622,
+  "subset_rule": "first corpus_size rows in the existing cache; full cache when zero",
+  "empirical_lipschitz_quantile": 0.995,
+  "empirical_lipschitz_pairs": 20000,
+  "L_hat": 0.30310242235346463,
+  "retained_fit_quantile": 0.9,
+  "eps_hat": 0.20367919693152697,
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20260906,
+  "runs": {
+    "diagnostic": {
+      "request_seed": 0,
+      "n_requests": 300,
+      "strata": [
+        {
+          "stratum": 0,
+          "n": 100,
+          "median": 0.06045074252562465,
+          "ci_low": 0.03686510700720416,
+          "ci_high": 0.11213778720425607
+        },
+        {
+          "stratum": 1,
+          "n": 100,
+          "median": 0.14212720131527484,
+          "ci_low": 0.09172724369129104,
+          "ci_high": 0.1881635727643765
+        },
+        {
+          "stratum": 2,
+          "n": 100,
+          "median": 0.29526764666275496,
+          "ci_low": 0.12454740698530781,
+          "ci_high": 0.4021046083371314
+        }
+      ],
+      "score_floor_spearman": 0.2614856301704817,
+      "distance_floor_spearman": 0.26855726587124207,
+      "original_loss_over_floor_median": 0.6579933214268943,
+      "original_loss_over_floor_ci95": [
+        0.6164107121605231,
+        0.7078315343202646
+      ],
+      "prediction_distance_median": 0.014114183710685232,
+      "clamped_floor_count": 0,
+      "maximum_direct_solve_residual_discrepancy": 6.785683126508957e-13
+    },
+    "operating_points": {
+      "request_seed": 1,
+      "n_requests": 200,
+      "strata": [
+        {
+          "stratum": 0,
+          "n": 67,
+          "median": 0.08149237448917909,
+          "ci_low": 0.05567619629918687,
+          "ci_high": 0.15464505710157186
+        },
+        {
+          "stratum": 1,
+          "n": 66,
+          "median": 0.1873803419097408,
+          "ci_low": 0.123214209185225,
+          "ci_high": 0.25006380728766314
+        },
+        {
+          "stratum": 2,
+          "n": 67,
+          "median": 0.32525799342310174,
+          "ci_low": 0.165918421407679,
+          "ci_high": 0.4552868908222444
+        }
+      ],
+      "score_floor_spearman": 0.35580439510987777,
+      "distance_floor_spearman": 0.32137553438835975,
+      "original_loss_over_floor_median": 0.6902979750171649,
+      "original_loss_over_floor_ci95": [
+        0.6588123538964183,
+        0.7264576730839629
+      ],
+      "prediction_distance_median": 0.015231187664696819,
+      "clamped_floor_count": 0,
+      "maximum_direct_solve_residual_discrepancy": 1.1038392422335619e-13
+    }
+  },
+  "maximum_validation_discrepancy": 6.785683126508957e-13,
+  "dataset_sha256": "1e42b1166852fa43664abb16b656cce5f00ec5ee8eb96bbaaad9b04bd9f7e5b5",
+  "script_sha256": "6d2f63d868ba543b282bee45d3d0350d097ae7ad9e4a8a59d92ba6d4f6467556",
+  "elapsed_seconds": 22.714119374999427
+}

@@ -1,0 +1,45 @@
+{
+  "source_sha256": {
+    "results/ridge_standard/operating_points_requests.csv": "308293c23095956f5d66cf284f292bfa0ba4061d6795b52f49be84d26923cfb4",
+    "results/ridge_high_capacity/operating_points_requests.csv": "5cd9c3f27b528c055fe6ea34297c648232eaecd14e06a03e4cd19bd5dc484357"
+  },
+  "requests": 200,
+  "identical_target_ids_in_order": true,
+  "lower_floor_at_8192": 132,
+  "larger_prediction_change_at_8192": 172,
+  "settings": {
+    "2048": {
+      "floor_median": 0.0323854088057612,
+      "original_absolute_residual_median": 0.16982893202246327,
+      "adjusted_leverage_median": 0.03461933544052393,
+      "prediction_distance_median": 0.0050263970410621,
+      "prediction_distance_p90": 0.025269711981434916
+    },
+    "8192": {
+      "floor_median": 0.011791152863193523,
+      "original_absolute_residual_median": 0.0845466152072828,
+      "adjusted_leverage_median": 0.1691601931013587,
+      "prediction_distance_median": 0.015231187664696819,
+      "prediction_distance_p90": 0.08993165366923028
+    }
+  },
+  "paired_differences_8192_minus_2048": {
+    "floor": {
+      "median": -0.010664070092730515,
+      "ci95": [
+        -0.023839304499370745,
+        -0.006160548987839402
+      ]
+    },
+    "prediction_distance": {
+      "median": 0.008023158087712222,
+      "ci95": [
+        0.006478654079390425,
+        0.010964951284693797
+      ]
+    }
+  },
+  "lower_floor_and_larger_change_at_8192": 104,
+  "prediction_decomposition_checks": 40,
+  "maximum_decomposition_error": 9.308109838457312e-12
+}

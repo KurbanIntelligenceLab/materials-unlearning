@@ -1,0 +1,46 @@
+# Private and generated project material
+/data/
+/development/
+/final_manuscript/
+/latest_manuscript/
+/manuscript/
+/manuscripts/
+/submission/main/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.coverage
+.mypy_cache/
+.nox/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.venv/
+htmlcov/
+
+# Builds and local configuration
+/build/
+/dist/
+.DS_Store
+.env
+.env.*
+.idea/
+.vscode/
+*.bak
+*.tmp
+
+# LaTeX intermediates
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Lean dependency caches and generated proof artifacts
+.lake/
+
+# Outputs from documented replay commands
+/runs/

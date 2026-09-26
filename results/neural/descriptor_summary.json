@@ -1,0 +1,64 @@
+{
+  "analysis_status": "exploratory descriptor analysis of single-seed losses",
+  "descriptor_columns": 134,
+  "requests": 200,
+  "max_independent_distance_error": 8.881784197001252e-16,
+  "joint_row_permutation_checks": 5,
+  "full_FloorScore_recomputed": false,
+  "nn_distance": {
+    "spearman_vs_floor": 0.036686417160429016,
+    "request_bootstrap_ci95": [
+      -0.09133384509332293,
+      0.16995250321538669
+    ],
+    "spearman_vs_paired_loss_difference": 0.03613590339758494
+  },
+  "nn_label_gap": {
+    "spearman_vs_floor": 0.2128343208580215,
+    "request_bootstrap_ci95": [
+      0.07285276508299476,
+      0.34635213213847116
+    ],
+    "spearman_vs_paired_loss_difference": 0.1316327908197705
+  },
+  "distance_strata": [
+    {
+      "stratum": "near",
+      "n": 67,
+      "median_floor_over_test_mse": 0.24853383239587723,
+      "ci95": [
+        0.0928338594741334,
+        0.3878120426259738
+      ]
+    },
+    {
+      "stratum": "middle",
+      "n": 66,
+      "median_floor_over_test_mse": 0.2263742059292595,
+      "ci95": [
+        0.06923919213538847,
+        0.36971843181583797
+      ]
+    },
+    {
+      "stratum": "far",
+      "n": 67,
+      "median_floor_over_test_mse": 0.2926189978371819,
+      "ci95": [
+        0.18179674378748928,
+        0.5875769925518168
+      ]
+    }
+  ],
+  "distance_stratum_cutpoints": [
+    2.5228098432328565,
+    4.511320357809862
+  ],
+  "far_over_near_median_ratio": 1.1773809425313315,
+  "cautions": [
+    "Existing floors condition on one training seed; bootstrap covers requests.",
+    "Original training-split normalization is frozen; this is descriptive geometry.",
+    "Distance and label gap are separate diagnostics, not a recalibrated FloorScore.",
+    "The analysis is exploratory and must not be presented as prespecified confirmation."
+  ]
+}
