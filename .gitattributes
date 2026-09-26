@@ -1,0 +1,3 @@
+# Preserve recorded evidence bytes and checksums on every platform.
+results/** -text
+*.csv whitespace=cr-at-eol

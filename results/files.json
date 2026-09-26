@@ -1,0 +1,62 @@
+[
+  {
+    "path": "results/controlled/floor_vs_redundancy.csv",
+    "sha256": "d4946c0d871b9aca098d3b41a4091639595c50c1ed61f81c4b4d1395c4d45e26"
+  },
+  {
+    "path": "data/mp20_full.npz",
+    "sha256": "1e42b1166852fa43664abb16b656cce5f00ec5ee8eb96bbaaad9b04bd9f7e5b5"
+  },
+  {
+    "path": "data/mp20_graphs.npz",
+    "sha256": "a49f848e9f3b152e7aaf2a609d64c42288055a16ad6e797fbb9c2a8184d02415"
+  },
+  {
+    "path": "data/mp20_snapshot.json",
+    "sha256": "410c5ec3c44d7d3e883359a725b18980abb6c5235b1fb0798199be34e60573da"
+  },
+  {
+    "path": "results/neural/deletion_losses.csv",
+    "sha256": "c03010c503287ba584d4f2d0a2525b9e3421d7b942b0285234b688a33cee8317"
+  },
+  {
+    "path": "results/neural/descriptor_requests.csv",
+    "sha256": "c02eb113a917801ded798258821f29fefac3925c8c64479f0631d12fa106bf4f"
+  },
+  {
+    "path": "results/neural/descriptor_summary.json",
+    "sha256": "0bc85fcf9813308da1fa78f2ed53d05dd098d279b6620497529a0e43af42196c"
+  },
+  {
+    "path": "results/operating_points/summary.csv",
+    "sha256": "7908d814d932288f5f9785f88ce615758fb341b16d5ba49455299f6a30896ff0"
+  },
+  {
+    "path": "results/paired/summary.json",
+    "sha256": "3c22d4b7ed92074fdb32f94241ec9f5819b194585025f70361dabb1e827128f0"
+  },
+  {
+    "path": "results/ridge_high_capacity/diagnostic_requests.csv",
+    "sha256": "44e8e1ea9c2949854131bccf35d2711fa4f46a017231a51dd4b0b56c016f986a"
+  },
+  {
+    "path": "results/ridge_high_capacity/operating_points_requests.csv",
+    "sha256": "5cd9c3f27b528c055fe6ea34297c648232eaecd14e06a03e4cd19bd5dc484357"
+  },
+  {
+    "path": "results/ridge_high_capacity/summary.json",
+    "sha256": "685b0e5a1a4f07224323f92bf85e81b92e014d5e38931b76ee654193906588ee"
+  },
+  {
+    "path": "results/ridge_standard/diagnostic_requests.csv",
+    "sha256": "4b8f643de03d62d96faf2e43a7e2b4e519847696d70eca4039065da3266abb2e"
+  },
+  {
+    "path": "results/ridge_standard/operating_points_requests.csv",
+    "sha256": "308293c23095956f5d66cf284f292bfa0ba4061d6795b52f49be84d26923cfb4"
+  },
+  {
+    "path": "results/ridge_standard/summary.json",
+    "sha256": "45978b1b5d4b1d2fdc13b7cec4c1ef37cd569707166102b14da909c46ca152b1"
+  }
+]

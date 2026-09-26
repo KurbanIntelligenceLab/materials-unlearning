@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "materials-unlearning"
+version = "0.1.0"
+description = "Reference calculations for materials machine unlearning under data redundancy"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy"]
+
+[project.optional-dependencies]
+release = ["build"]
+materials = ["pymatgen", "mp-api"]
+neural = ["torch", "pymatgen"]
+
+[project.scripts]
+materials-unlearning = "materials_unlearning.cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
